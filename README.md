@@ -22,9 +22,25 @@ claude plugin install northflank@northflank
 
 `northflank/skills` is the GitHub shorthand for [`github.com/northflank/skills`](https://github.com/northflank/skills) — Claude Code resolves it to the marketplace at the repo root. Pass a full URL (`https://github.com/northflank/skills`) instead if you prefer to be explicit.
 
-### Other Editors
+### OpenAI Codex
 
-If your editor supports skill directories directly, copy `skills/northflank` into its skills directory:
+Install the Northflank Skill using Codex's built-in skill installer:
+
+```text
+$skill-installer https://github.com/northflank/skills/tree/master/skills/northflank
+```
+
+### Skills CLI
+
+If your editor supports the Skills specification, install the Northflank Skill with:
+
+```bash
+npx skills add northflank/skills
+```
+
+### Manual Installation
+
+If your editor supports loading skills from a local directory, copy `skills/northflank` into the appropriate skills directory:
 
 | Editor | Skill directory |
 | :----- | :-------------- |
