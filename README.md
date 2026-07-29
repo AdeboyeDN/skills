@@ -40,7 +40,7 @@ npx skills add northflank/skills
 
 ### Manual Installation
 
-If your editor supports loading skills from a local directory, copy `skills/northflank` into the appropriate skills directory:
+If your editor supports loading skills from a directory, copy `skills/northflank` into the appropriate skills directory:
 
 | Editor | Skill directory |
 | :----- | :-------------- |
